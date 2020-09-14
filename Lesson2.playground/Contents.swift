@@ -41,11 +41,11 @@ var n:String = "Hello\(c)"
 
 // 8. Взять модуль из переменной типа Int, реализовать округление переменной типа Double
 
-var o:Int = 123
-var p = o%2
+var o:Int = -8
+var p = abs(o)
 
-var q:Int = -8
-var r = abs(q)
+var q:Double = 123.456
+var r:Int = Int(q)
 
 
 print(type(of: a))

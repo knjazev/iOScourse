@@ -44,8 +44,8 @@ var n:String = "Hello\(c)"
 var o:Int = 123
 var p = o%2
 
-var q:Double = 123.456
-var r:Int = Int(q)
+var q:Int = -8
+var r = abs(q)
 
 
 print(type(of: a))
